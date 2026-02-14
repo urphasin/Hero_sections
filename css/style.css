@@ -9,23 +9,26 @@
   --step-4: clamp(2.5rem, 2rem + 2vw, 4rem);
   /* end */
 
-  /* Colors */
+  /* Soft Editorial / Minimal (Clean Design Feel) Colors */
   --bg-1: #f8f7f4;
   --bg-2: #eae7dc;
   --bg-3: #d8cfc4;
 
+  --accent-1: #c44536;
+  --accent-2: #2c3e50;
+  --accent-3: #3a5a40;
+  /* end */
+
+
+  /* Modern Dark + Neon Accent (Clean + Dev Vibe) Colors */
   --bg-4: #0f172a;
   --bg-5: #1e293b;
   --bg-6: #0b1120;
 
-  --accent-1: #c44536;
-  --accent-2: #2c3e50;
-  --accent-3: #3a5a40;
-
   --accent-4: #38bdf8;
   --accent-5: #a78bfa;
   --accent-6: #f472b6;
-
+  /* end */
 
   --text-primary: #f8fafc;
   --text-muted: #94a3b8;
