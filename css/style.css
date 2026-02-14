@@ -9,22 +9,6 @@
   --step-4: clamp(2.5rem, 2rem + 2vw, 4rem);
   /* end */
 
-  /* Soft Editorial / Minimal (Clean Design Feel) Colors */
-  --grad-softeditorial-1x: #f8f7f4;
-  --grad-softeditorial-1y: #c44536;
-
-  --grad-softeditorial-2x: #eae7dc;
-  --grad-softeditorial-2y: #2c3e50;
-
-  --grad-softeditorial-3x: #d8cfc4;
-  --grad-softeditorial-3y: #3a5a40;
-
-
-  --text-softeditorial-1: #1a1a1a;
-  --text-softeditorial-2: #555;
-  /* end */
-
-
   /* Modern Dark + Neon Accent (Clean + Dev Vibe) Colors */
   --bg-4: #0f172a;
   --bg-5: #1e293b;
@@ -36,6 +20,26 @@
 
   --text-primary: #f8fafc;
   --text-muted: #94a3b8;
+  /* end */
+
+  /* Soft Editorial / Minimal (Clean Design Feel) Colors */
+  --grad-softeditorial-1x: #f8f7f4;
+  --grad-softeditorial-1y: #c44536;
+
+  --grad-softeditorial-2x: #eae7dc;
+  --grad-softeditorial-2y: #2c3e50;
+
+  --grad-softeditorial-3x: #d8cfc4;
+  --grad-softeditorial-3y: #3a5a40;
+
+
+  --gradient-softeditorial-1: linear-gradient(135deg, var(--grad-softeditorial-1x), var(--grad-softeditorial-1y));
+  --gradient-softeditorial-2: linear-gradient(135deg, var(--grad-softeditorial-2x), var(--grad-softeditorial-2y));
+  --gradient-softeditorial-3: linear-gradient(135deg, var(--grad-softeditorial-3x), var(--grad-softeditorial-3y));
+
+
+  --text-softeditorial-1: #1a1a1a;
+  --text-softeditorial-2: #555;
   /* end */
 
 
@@ -50,9 +54,9 @@
   --grad-highenergy-3x: #4e54c8;
   --grad-highenergy-3y: #8f94fb;
 
-  --gradient-1: linear-gradient(135deg, var(--grad-highenergy-1x), var(--grad-highenergy-1y));
-  --gradient-2: linear-gradient(135deg, var(--grad-highenergy-2x), var(--grad-highenergy-2y));
-  --gradient-3: linear-gradient(135deg, var(--grad-highenergy-3x), var(--grad-highenergy-3y));
+  --gradient-highenergy-1: linear-gradient(135deg, var(--grad-highenergy-1x), var(--grad-highenergy-1y));
+  --gradient-highenergy-2: linear-gradient(135deg, var(--grad-highenergy-2x), var(--grad-highenergy-2y));
+  --gradient-highenergy-3: linear-gradient(135deg, var(--grad-highenergy-3x), var(--grad-highenergy-3y));
 
   --text-light: #ffffff;
   /* end */
@@ -104,8 +108,9 @@ section {
   transition: background 0.5s ease;
 }
 
-.hero:nth-of-type(1) {background: var(--gradient-1)}
-.hero:nth-of-type(2) {background: var(--gradient-2)}
-.hero:nth-of-type(3) {background: var(--gradient-3)}
+.hero:nth-of-type(1) {background: var(--gradient-softeditorial-1)}
+.hero:nth-of-type(2) {background: var(--gradient-softeditorial-2)}
+.hero:nth-of-type(3) {background: var(--gradient-softeditorial-3)}
 
-h1, h2, h3, p, small { color: var(--text-light)}
+h1, h2, h3 { color: var(--text-softeditorial-1)}
+p, small { color: var(--text-softeditorial-2)}
