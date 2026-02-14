@@ -28,11 +28,26 @@
   --accent-4: #38bdf8;
   --accent-5: #a78bfa;
   --accent-6: #f472b6;
-  /* end */
 
   --text-primary: #f8fafc;
   --text-muted: #94a3b8;
   /* end */
+
+
+
+  /* High Energy Gradient System (Bold Startup Style) Colors*/
+  --grad-1x: #ff512f;
+  --grad-1y: #dd2476;
+
+  --grad-2x: #1d976c;
+  --grad-2y: #93f9b9;
+
+  --grad-3x: #4e54c8;
+  --grad-3y: #8f94fb;
+
+  --gradient-1: linear-gradient(135deg, var(--grad-1x), var(--grad-1y));
+  /* end */
+
 }
 
 h1 {font-size: var(--step-4);}
