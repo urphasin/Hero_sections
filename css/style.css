@@ -102,10 +102,21 @@ main {
   scroll-snap-type: y mandatory;
 }
 
-section {
-  height: 100vh; /* full screen */
-  scroll-snap-align: start; /* snap at the start of the section */
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Fluid Typography */
@@ -130,6 +141,45 @@ section {
 
 h1, h2, h3 { color: var(--text-soft-editorial-1)}
 p, small { color: var(--text-soft-editorial-2)}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section {
+  /*fullscreen*/
+  /* height: 100vh; */
+  scroll-snap-align: start; /* snap at the start of the section */
+}
+
+
+.content {
+  position: relative;
+  top: 50vh; left: 50vw;
+  translate: -50%, -50%;
+
+
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
 
 
 
