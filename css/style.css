@@ -158,7 +158,7 @@ p, small { color: var(--text-soft-editorial-2)}
 
 section {
   /*fullscreen*/
-  /* height: 100vh; */
+  height: 100vh;
   scroll-snap-align: start; /* snap at the start of the section */
 }
 
